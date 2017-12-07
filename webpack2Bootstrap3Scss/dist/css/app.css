@@ -1,0 +1,14 @@
+body {
+  background-color: #a9a9a9;
+  background: url(images/background2a.9172ab.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+}
+
+body p {
+  color: red;
+}
+
+h1 {
+  color: #006400;
+}
