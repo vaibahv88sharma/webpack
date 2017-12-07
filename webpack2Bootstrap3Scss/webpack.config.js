@@ -12,7 +12,7 @@ const scssProd = ExtractTextPlugin.extract({
     fallback: "style-loader",
     use: ['css-loader', 'sass-loader'],
     //publicPath: './dist/'
-    //publicPath: './images/'
+    publicPath: '../'
 });
 const scssConfig = isProd ? scssProd : scssDev;
 const bootstrapConfig = isProd ? bootstrapEntryPoints.prod : bootstrapEntryPoints.dev;
@@ -84,7 +84,7 @@ module.exports = {
             template: './src/contact.html'
         }),        
         new ExtractTextPlugin({
-            filename: '/css/[name].css',
+            filename: './css/[name].css',
             disable: !isProd, // DISABLE IT WHEN USING HOT-MODULE-REPLACEMENT (HMR) AS HMR DOES NOT WORK WITH IT
             allChunks: true            
         }),     
