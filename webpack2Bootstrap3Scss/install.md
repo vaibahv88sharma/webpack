@@ -1,4 +1,5 @@
 npm install --save-dev webpack
+
 npm view webpack versions --json
 
 # html loader
@@ -27,7 +28,9 @@ npm install image-webpack-loader --save-dev
 
 # Bootstrap loader
 npm install bootstrap-loader --save-dev
+
 npm install --save resolve-url-loader --save-dev
+
 npm install --save-dev url-loader
 
 # Bootstrap 3
@@ -38,4 +41,5 @@ npm install imports-loader jquery --save-dev
 
 # Remove Unused CSS from bootstrap
 npm i purifycss-webpack --save-dev
+
 npm install purify-css --save-dev
