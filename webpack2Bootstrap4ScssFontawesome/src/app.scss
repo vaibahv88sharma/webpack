@@ -1,0 +1,12 @@
+@import './bootstrap/customizations.scss';
+/* @import "../node_modules/font-awesome/scss/font-awesome.scss"; */
+
+body{
+    background-color: darkgray;
+    background: url("./images/background2a.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 100px;    
+    p{
+        color:red;
+    }
+}
