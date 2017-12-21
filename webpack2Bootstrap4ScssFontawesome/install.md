@@ -50,14 +50,13 @@ npm install --save-dev jquery
 
 npm install --save-dev popper.js
 
+npm i --save-dev tether
 
 # Additional loaders required for Bootstrap 4 & Webpack 2
 npm install --save-dev imports-loader exports-loader
 
 npm install --save-dev postcss postcss-loader
 npm install precss --save-dev
-
-npm i --save-dev tether
 
 
 # Font - awesome
